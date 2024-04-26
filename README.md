@@ -145,8 +145,9 @@ This tool uses Diesel for ORM operations and bcrypt for password hashing. For mo
 * urlencoding: https://docs.rs/urlencoding/2.1.3/urlencoding/
 
 TODO: 
-[ ] Reset passwords in bulk in case of a data breach or migration to a new password hashing algorithm.
-[ ] Add tests
+- [ ] Reset passwords in bulk in case of a data breach or migration to a new password hashing algorithm.
+- [ ] Add tests
+
 
 ## License
 
