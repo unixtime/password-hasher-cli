@@ -1,7 +1,9 @@
+![FIle Router workflow](https://github.com/unixtime/password-hasher-cli/actions/workflows/rust.yml/badge.svg)
+
 # Password Hasher CLI Tool
 
 This CLI tool provides password hashing capabilities and password reset functionality for a user recorded in a database.
-It allows for hashing passwords securely using `bcrypt` or `argon2`, and managing them within various types of databases including `MySQL`, `PostgreSQL`, and `SQLite`. 
+It allows for securely hashing passwords using `bcrypt` or `argon2` and managing them within various databases, including MySQL, PostgreSQL, and SQLite. 
 It can also operate in a standalone mode, where it simply hashes a password using a specified method without interacting with a database.
 
 ## Requirements
@@ -18,7 +20,7 @@ It can also operate in a standalone mode, where it simply hashes a password usin
 ## Setup Instructions
 
 1. **Clone the Repository:**
-   Ensure you have Rust and Cargo installed, then clone this repository to your local machine.
+   Please install Rust and Cargo, then clone this repository to your local machine.
 
 ```bash
 git clone https://github.com/unixtime/password-hasher-cli.git
@@ -98,7 +100,7 @@ Follow the on-screen prompts to select your database type, enter database creden
 
 ### Creating the SQLite Users Table
 
-Here’s an example of how you might set up a users table in SQLite to use with this tool:
+Here’s an example of how you might set up a user table in SQLite to use with this tool:
 
 ```bash
 sqlite3 users.db
@@ -122,7 +124,7 @@ password_hasher_cli --method argon2 # or bcrypt
 Password Hasher CLI
 Enter database type (mysql, postgres, sqlite): sqlite
 Enter table name: users
-Enter user ID or username to change password: 1
+Enter the user ID or username to change password: 1
 Please enter a password to hash (input will be hidden): 
 
 Please confirm your password: 
