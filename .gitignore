@@ -12,3 +12,12 @@ Cargo.lock
 
 # MSVC Windows builds of rustc generate these, which store debugging information
 *.pdb
+
+# Ignore all Intellij IDEA files
+.idea/
+# Ignore all Visual Studio Code files
+.vscode/
+# Ignore .env file
+.env
+# Ignore *.db file
+*.db
