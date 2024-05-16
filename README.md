@@ -17,6 +17,20 @@ It can also operate in a standalone mode, where it simply hashes a password usin
 - MySQL/MariaDB
 - SQLite
 
+### On macOS using brew you need the following:
+
+- Postgres Lib
+
+```sh
+brew install libpq
+```
+
+- MySQL Lib
+
+```sh
+brew install mysql-client
+```
+
 ## Setup Instructions
 
 1. **Clone the Repository:**
